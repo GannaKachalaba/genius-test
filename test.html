@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+  </head>
+  <body>
+    <!--Обов'язкові атрибути тегу  video - це controls, loop-циклічність відео; autoplay-автоматично вмикається; muted-вмикається без звуку Приклад запису: <video controls loop autoplay muted>-->
+    <video controls>
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      />
+    </video>
+    <table>
+      <caption>
+        Заголовок
+      </caption>
+      <thead>
+        <th>Назва колонки</th>
+        <th>Назва колонки</th>
+        <th>Назва колонки</th>
+        <th>Назва колонки</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Ім'я</td>
+          <td>Прізвище</td>
+          <td rowspan="4">1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ім'я</td>
+          <td>Прізвище</td>
+          <!-- <td>1000</td> -->
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ім'я</td>
+          <td>Прізвище</td>
+          <!-- <td>1000</td> -->
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ім'я</td>
+          <td>Прізвище</td>
+          <!-- <td>1000</td> -->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>4000</td>
+        </tr>
+      </tfoot>
+    </table>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40886.53798024617!2d3.163373911115903!3d50.17219580221333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2bb08ea54258b%3A0x121eb8c4971f8ca3!2shotelF1%20Cambrai!5e0!3m2!1sru!2sua!4v1699133812069!5m2!1sru!2sua"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <iframe
+      width="600"
+      height="450"
+      src="https://www.youtube.com/embed/C0DPdy98e4c?si=t8gGKTe1zW0SB3D8"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
